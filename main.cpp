@@ -86,7 +86,6 @@ public:
         {
             error();
         }
-        result.~matrix_t();
         return result;
     }
 
